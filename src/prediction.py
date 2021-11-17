@@ -7,8 +7,8 @@ from ml_utils.tflite_object_detection import ObjectDetectionModel
 
 
 def create_object_detection_model(model_directory: Path) -> ObjectDetectionModel:
-    model = ObjectDetectionModel(labels_path=model_directory / Path("ml_utils/model_data/label_map.txt"),
-                                 model_path=model_directory / Path("ml_utils/model_data/ssd_mobilenet_v2_5.tflite"))
+    model = ObjectDetectionModel(labels_path=model_directory / "label_map.txt",
+                                 model_path=model_directory / "ssd_mobilenet_v2_5.tflite")
     return model
 
 

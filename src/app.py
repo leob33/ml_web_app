@@ -16,13 +16,13 @@ def upload():
         # Get the file from post request
         f = request.files['file']
 
-        # Save the file to ./static/uploads
+        # Save the file to ./uploads
         basepath = Path(__file__).resolve().parents[0]
-        file_path = basepath/'static'/app.config['upload_folder']/f.filename
+        file_path = basepath/app.config['upload_folder']/f.filename
         f.save(file_path)
 
         # run prediction
-        model = create_object_detection_model(basepath)
+        model = create_object_detection_model(model_directory=basepath/'ml_utils/model_data')
         make_prediction_on_video(file_path, model,
                                  output_directory_path=Path(basepath/f"static/{app.config['model_output_folder']}"))
 
