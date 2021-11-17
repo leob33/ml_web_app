@@ -3,26 +3,15 @@
 **/test_output
 video_sample
 
+**/.DS_Store
+
 # Byte-compiled / optimized / DLL files
 **/__pycache__/
 *.py[cod]
 *$py.class
 
-# dataset folder
-dataset/
-# output folder
-**/tinyml_application_outputs/
-# model folder
-**/models_trained/
-**/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8/
 
-# tmp folder
-tmp/
 .idea/
-
-#ssh key files
-id_for_rpi
-id_for_rpi.pub
 
 # C extensions
 *.so
