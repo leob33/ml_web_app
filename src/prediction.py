@@ -3,7 +3,7 @@ from typing import Tuple
 
 import cv2
 
-from src.ml_utils.tflite_object_detection import ObjectDetectionModel
+from ml_utils.tflite_object_detection import ObjectDetectionModel
 
 
 def create_object_detection_model(model_directory: Path) -> ObjectDetectionModel:
