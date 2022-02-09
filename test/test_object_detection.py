@@ -37,6 +37,3 @@ def test_object_detection_model_on_video_return_another_video_with_labels_drawn(
         frame_with_bounding_boxes_and_score = model.predict(image=frame, filter_threshold=0.3, draw_boxes=True)
         out.write(frame_with_bounding_boxes_and_score)
         out.release()
-
-
-test_object_detection_model_on_video_return_another_video_with_labels_drawn()

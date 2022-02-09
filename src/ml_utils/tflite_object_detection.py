@@ -3,7 +3,7 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-import tflite_runtime.interpreter as tflite
+import tensorflow as tf
 
 
 class ObjectDetectionModel:
@@ -11,21 +11,13 @@ class ObjectDetectionModel:
     def __init__(self, model_path: Path, labels_path: Path):
         self.model_path = model_path
         self.labels_path = labels_path
+        self._labels_list = open(self.labels_path).read().strip().split("\n")
+        self._interpreter = tf.lite.Interpreter(str(self.model_path))
+        self._interpreter.allocate_tensors()
         self.input_details_dic = self._interpreter.get_input_details()[0]
         self.output_details_list_dic = self._interpreter.get_output_details()
         self.input_tensor_size_expected = tuple(self.input_details_dic['shape'][1:-1])
         self.input_tensor_dtype_expected = self.input_details_dic['dtype']
-
-    @property
-    def _labels_list(self):
-        labels_list = open(self.labels_path).read().strip().split("\n")
-        return labels_list
-
-    @property
-    def _interpreter(self):
-        _interpreter = tflite.Interpreter(str(self.model_path))
-        _interpreter.allocate_tensors()
-        return _interpreter
 
     def predict(self, image: np.ndarray, filter_threshold: float, draw_boxes: bool, text_size: float = 0.45) \
             -> Union[np.ndarray, List[Dict[str, Union[str, int]]]]:
