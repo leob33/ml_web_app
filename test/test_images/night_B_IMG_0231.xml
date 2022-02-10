@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images</folder>
-	<filename>night_B_IMG_0231.jpg</filename>
-	<path>/Users/leo.babonnaud/PycharmProjects/object_detection/images/night_B_IMG_0231.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>980</height>
-		<depth>1</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Sanglier d'Eurasie</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>7</xmin>
-			<ymin>497</ymin>
-			<xmax>1453</xmax>
-			<ymax>977</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0eae5e3f5e3300f3ea6db6b4b58af6f0befdcf746e96dc33a21733c047f833dc
+size 588

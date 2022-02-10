@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images</folder>
-	<filename>night_I_RCNX0111.jpg</filename>
-	<path>/Users/leo.babonnaud/PycharmProjects/object_detection/images/night_I_RCNX0111.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>3776</width>
-		<height>2024</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Renard roux</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>25</xmin>
-			<ymin>1486</ymin>
-			<xmax>2797</xmax>
-			<ymax>2024</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:7edb7252574f3bfb708f1a895190c7464d71ee318bdbccb12b0e1cd13a0b3812
+size 584

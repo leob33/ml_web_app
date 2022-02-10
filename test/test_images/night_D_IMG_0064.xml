@@ -1,26 +1,3 @@
-<annotation>
-	<folder>Chevreuil europ&#233;en</folder>
-	<filename>night_D_IMG_0064.jpg</filename>
-	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Chevreuil europ&#233;en/night_D_IMG_0064.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>980</height>
-		<depth>1</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Chevreuil Europeen</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1161</xmin>
-			<ymin>481</ymin>
-			<xmax>1517</xmax>
-			<ymax>673</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:00fa646c59c0a2dbe920d6fec6f79269be972c9885aa55400848ea3dcf69348b
+size 635

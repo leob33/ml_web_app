@@ -1,26 +1,3 @@
-<annotation>
-	<folder>Martre des pins</folder>
-	<filename>night_J_RCNX0033.jpg</filename>
-	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Martre des pins/night_J_RCNX0033.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>3776</width>
-		<height>2024</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Martre des pins</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1575</xmin>
-			<ymin>720</ymin>
-			<xmax>2418</xmax>
-			<ymax>1889</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fccf562581616dc90c2f4bc052ad14474f5137101e603b05b0228e67fe2be99
+size 618

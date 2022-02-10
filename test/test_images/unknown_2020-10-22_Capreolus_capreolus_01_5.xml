@@ -1,26 +1,3 @@
-<annotation>
-	<folder>Chevreuil europ&#233;en</folder>
-	<filename>unknown_2020-10-22_Capreolus_capreolus_01_5.jpg</filename>
-	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Chevreuil europ&#233;en/unknown_2020-10-22_Capreolus_capreolus_01_5.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>920</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Chevreuil Europeen</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1014</xmin>
-			<ymin>437</ymin>
-			<xmax>1811</xmax>
-			<ymax>915</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4becdc4021da1ebfde3b4f9a79be39100dc0504708998b89ce1b1a59303d0ff4
+size 689

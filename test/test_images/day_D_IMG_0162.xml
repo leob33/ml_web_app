@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images</folder>
-	<filename>day_D_IMG_0162.jpg</filename>
-	<path>/Users/leo.babonnaud/PycharmProjects/object_detection/images/day_D_IMG_0162.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>980</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Chevreuil Europeen</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>5</xmin>
-			<ymin>660</ymin>
-			<xmax>406</xmax>
-			<ymax>980</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:9107e9be262cde049dd9a5ba98c95601726cb19b92066409f018d34aed52a44c
+size 582

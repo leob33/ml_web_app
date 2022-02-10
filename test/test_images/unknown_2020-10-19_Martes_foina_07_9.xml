@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images</folder>
-	<filename>unknown_2020-10-19_Martes_foina_07_9.jpg</filename>
-	<path>/Users/leo.babonnaud/PycharmProjects/object_detection/images/unknown_2020-10-19_Martes_foina_07_9.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>920</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Martre des pins</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>932</xmin>
-			<ymin>58</ymin>
-			<xmax>1175</xmax>
-			<ymax>592</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ca3f64323aee1934bd20c04312bb181a03f4aec42adb0132716392e5dcd45c1
+size 625

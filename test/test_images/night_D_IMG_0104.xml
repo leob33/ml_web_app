@@ -1,26 +1,3 @@
-<annotation>
-	<folder>Sanglier d'Eurasie</folder>
-	<filename>night_D_IMG_0104.jpg</filename>
-	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Sanglier d'Eurasie/night_D_IMG_0104.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>980</height>
-		<depth>1</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Sanglier d'Eurasie</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1311</xmin>
-			<ymin>449</ymin>
-			<xmax>1698</xmax>
-			<ymax>652</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f7c2fecbec9ee41bc12984040833a3bbda49b6aa09a781a1deb1427cce6277c
+size 626

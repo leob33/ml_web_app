@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images_to_label</folder>
-	<filename>unknown_2020-12-08_Capreolus_capreolus_02_6.jpg</filename>
-	<path>/Users/leo.babonnaud/PycharmProjects/object_detection_dataset/images_to_label/unknown_2020-12-08_Capreolus_capreolus_02_6.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>920</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Chevreuil Europeen</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2</xmin>
-			<ymin>237</ymin>
-			<xmax>1153</xmax>
-			<ymax>920</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fbb90be559cef17e1a12f999aed0aa0eabc18666cd9ee3b91c25fe8e92288b2
+size 667

@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images</folder>
-	<filename>unknown_2021-01-29_Sus_scrofa_10_7.jpg</filename>
-	<path>/Users/leo.babonnaud/PycharmProjects/object_detection/images/unknown_2021-01-29_Sus_scrofa_10_7.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>920</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Sanglier d'Eurasie</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1415</xmin>
-			<ymin>314</ymin>
-			<xmax>1920</xmax>
-			<ymax>829</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a8612cb03232d538e4e6f8d643f13edd600eaa8dd5c8dd8980b33ae03a35f99
+size 627

@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images_to_label</folder>
-	<filename>unknown_2020-12-25_Vulpes_vulpes_05_4.jpg</filename>
-	<path>/Users/leo.babonnaud/PycharmProjects/object_detection_dataset/images_to_label/unknown_2020-12-25_Vulpes_vulpes_05_4.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>920</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Renard roux</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1593</xmin>
-			<ymin>488</ymin>
-			<xmax>1856</xmax>
-			<ymax>837</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6ea4390c5599f35b12d483600fde9181e27c9f07d788ec0912b8a8cf2899915
+size 652

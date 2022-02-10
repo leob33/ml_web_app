@@ -1,26 +1,3 @@
-<annotation>
-	<folder>Martre des pins</folder>
-	<filename>unknown_2020-11-20_Martes_foina_04_2.jpg</filename>
-	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Martre des pins/unknown_2020-11-20_Martes_foina_04_2.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>920</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Martre des pins</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>955</xmin>
-			<ymin>431</ymin>
-			<xmax>1157</xmax>
-			<ymax>666</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa9118354eb1824dfa18672612519fef6d83715540529f9cda907f93e167a38e
+size 655

@@ -1,26 +1,3 @@
-<annotation>
-	<folder>Renard roux</folder>
-	<filename>night_I_RCNX0074_9.jpg</filename>
-	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Renard roux/night_I_RCNX0074_9.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>920</height>
-		<depth>1</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Renard roux</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>471</xmin>
-			<ymin>563</ymin>
-			<xmax>1186</xmax>
-			<ymax>920</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:68f3ff59d24e20ee68b293cf446240371e8eefae6db8636688e1e655deab2c1f
+size 608

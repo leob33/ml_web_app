@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images</folder>
-	<filename>day_C_IMG_0076.jpg</filename>
-	<path>/Users/leo.babonnaud/PycharmProjects/object_detection/images/day_C_IMG_0076.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>980</height>
-		<depth>1</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Martre des pins</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1242</xmin>
-			<ymin>433</ymin>
-			<xmax>1526</xmax>
-			<ymax>586</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0151b1c728d4336ce98b055a4e6780fcd54feb3927f838eda55698f60f2232ff
+size 583

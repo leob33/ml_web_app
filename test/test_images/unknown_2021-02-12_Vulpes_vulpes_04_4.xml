@@ -1,26 +1,3 @@
-<annotation>
-	<folder>Renard roux</folder>
-	<filename>unknown_2021-02-12_Vulpes_vulpes_04_4.jpg</filename>
-	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Renard roux/unknown_2021-02-12_Vulpes_vulpes_04_4.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>1920</width>
-		<height>920</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>Renard roux</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>71</xmin>
-			<ymin>506</ymin>
-			<xmax>978</xmax>
-			<ymax>917</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:31b12f429a8d85ffdc266d291199a49c8e74b6d365d2bb41b884e5d35fe90f4e
+size 644
