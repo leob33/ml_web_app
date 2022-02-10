@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images_to_label</folder>
+	<filename>night_J_RCNX0096_2.jpg</filename>
+	<path>/Users/leo.babonnaud/PycharmProjects/object_detection_dataset/images_to_label/night_J_RCNX0096_2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>920</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Chevreuil Europeen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>690</xmin>
+			<ymin>46</ymin>
+			<xmax>1092</xmax>
+			<ymax>504</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images_to_label</folder>
+	<filename>night_B_IMG_0276.jpg</filename>
+	<path>/Users/leo.babonnaud/PycharmProjects/object_detection_dataset/images_to_label/night_B_IMG_0276.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>980</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sanglier d'Eurasie</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>422</ymin>
+			<xmax>1146</xmax>
+			<ymax>980</ymax>
+		</bndbox>
+	</object>
+</annotation>

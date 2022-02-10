@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images_to_label</folder>
+	<filename>unknown_2021-03-02_Vulpes_vulpes_02_1.jpg</filename>
+	<path>/Users/leo.babonnaud/PycharmProjects/object_detection_dataset/images_to_label/unknown_2021-03-02_Vulpes_vulpes_02_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Renard roux</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>1</difficult>
+		<bndbox>
+			<xmin>487</xmin>
+			<ymin>631</ymin>
+			<xmax>664</xmax>
+			<ymax>764</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>unknown_2020-11-04_Sus_scrofa_13_8.jpg</filename>
+	<path>/Users/leo.babonnaud/PycharmProjects/object_detection/images/unknown_2020-11-04_Sus_scrofa_13_8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sanglier d'Eurasie</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>429</ymin>
+			<xmax>671</xmax>
+			<ymax>920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Sanglier d'Eurasie</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1038</xmin>
+			<ymin>635</ymin>
+			<xmax>1350</xmax>
+			<ymax>920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Sanglier d'Eurasie</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1475</xmin>
+			<ymin>601</ymin>
+			<xmax>1746</xmax>
+			<ymax>920</ymax>
+		</bndbox>
+	</object>
+</annotation>

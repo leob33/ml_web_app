@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images_to_label</folder>
+	<filename>unknown_2021-03-27_Capreolus_capreolus_07_3.jpg</filename>
+	<path>/Users/leo.babonnaud/PycharmProjects/object_detection_dataset/images_to_label/unknown_2021-03-27_Capreolus_capreolus_07_3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Chevreuil Europeen</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>714</xmin>
+			<ymin>388</ymin>
+			<xmax>1001</xmax>
+			<ymax>920</ymax>
+		</bndbox>
+	</object>
+</annotation>

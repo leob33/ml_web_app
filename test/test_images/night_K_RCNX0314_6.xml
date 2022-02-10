@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Sanglier d'Eurasie</folder>
+	<filename>night_K_RCNX0314_6.jpg</filename>
+	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Sanglier d'Eurasie/night_K_RCNX0314_6.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>920</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sanglier d'Eurasie</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>249</xmin>
+			<ymin>87</ymin>
+			<xmax>1908</xmax>
+			<ymax>900</ymax>
+		</bndbox>
+	</object>
+</annotation>

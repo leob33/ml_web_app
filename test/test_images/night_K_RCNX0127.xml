@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>night_K_RCNX0127.jpg</filename>
+	<path>/Users/leo.babonnaud/PycharmProjects/object_detection/images/night_K_RCNX0127.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3776</width>
+		<height>2024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sanglier d'Eurasie</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>19</xmin>
+			<ymin>183</ymin>
+			<xmax>489</xmax>
+			<ymax>1497</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Sanglier d'Eurasie</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1861</xmin>
+			<ymin>258</ymin>
+			<xmax>2341</xmax>
+			<ymax>636</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Sanglier d'Eurasie</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2253</xmin>
+			<ymin>167</ymin>
+			<xmax>2908</xmax>
+			<ymax>725</ymax>
+		</bndbox>
+	</object>
+</annotation>

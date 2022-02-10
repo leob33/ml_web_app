@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chevreuil europ&#233;en</folder>
+	<filename>night_D_IMG_0054.jpg</filename>
+	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Chevreuil europ&#233;en/night_D_IMG_0054.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>980</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Chevreuil Europeen</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1461</xmin>
+			<ymin>504</ymin>
+			<xmax>1920</xmax>
+			<ymax>980</ymax>
+		</bndbox>
+	</object>
+</annotation>

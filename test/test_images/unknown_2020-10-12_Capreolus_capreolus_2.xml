@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Chevreuil europ&#233;en</folder>
+	<filename>unknown_2020-10-12_Capreolus_capreolus_2.jpg</filename>
+	<path>/Users/chloe.tarris/PycharmProjects/tinyml/dataset/train_with_ad/Chevreuil europ&#233;en/unknown_2020-10-12_Capreolus_capreolus_2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Chevreuil Europeen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>144</xmin>
+			<ymin>204</ymin>
+			<xmax>439</xmax>
+			<ymax>349</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Chevreuil Europeen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1408</xmin>
+			<ymin>290</ymin>
+			<xmax>1600</xmax>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>
