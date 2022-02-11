@@ -2,6 +2,8 @@ import glob
 import random
 from typing import List, Dict
 
+import numpy as np
+from PIL import Image
 import streamlit as st
 import tensorflow as tf
 
@@ -31,9 +33,15 @@ detect_fn = load_model()
 labels = ['Chevreuil Européen', 'Renard roux', 'Martre des pins', "Sanglier d'Eurasie"]
 
 st.title("Prediction on Nature !")
+image_file_buffer = st.file_uploader("Try it with your own image")
 
-an_image_path = random.choice(batch_of_images)
-image_np = read_image_np_array(image_path=an_image_path)
+if image_file_buffer:
+    image_np = np.array(Image.open(image_file_buffer), dtype=np.uint8)
+
+else:
+    an_image_path = random.choice(batch_of_images)
+    image_np = read_image_np_array(image_path=an_image_path)
+
 detections = run_inference_on_image(image=image_np, detection_fn=detect_fn)
 
 clicked = st.sidebar.checkbox('Show me where is the animal')
