@@ -25,10 +25,10 @@ def display_predictions(predictions: List[Dict[str, float]]) -> None:
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    return tf.saved_model.load('/Users/leo.babonnaud/lab/ml_web_app/src/saved_model')
+    return tf.saved_model.load('src/saved_model')
 
 
-batch_of_images = glob.glob('/Users/leo.babonnaud/lab/ml_web_app/test/test_images/*.jpg')
+batch_of_images = glob.glob('test/test_images/*.jpg')
 detect_fn = load_model()
 labels = ['Chevreuil Européen', 'Renard roux', 'Martre des pins', "Sanglier d'Eurasie"]
 
