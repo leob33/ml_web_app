@@ -41,9 +41,9 @@ def convert_detections_into_a_list_of_dict(detections: Dict[str, np.ndarray], fi
     return results
 
 
-def run_inference_on_image(image, detection_fn):
+def run_inference_on_image(image, detection_fn, filter_threshold):
     input_tensor = read_image_as_tensor(image_np=image)
     detections = detection_fn(input_tensor)
     detections = convert_detections_into_np_array_with_correct_dtype(detections=detections)
-    detections = convert_detections_into_a_list_of_dict(detections=detections, filter_threshold=0.6)
+    detections = convert_detections_into_a_list_of_dict(detections=detections, filter_threshold=filter_threshold)
     return detections
