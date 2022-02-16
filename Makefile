@@ -1,4 +1,4 @@
-APPNAME = mlapp
+APPNAME = streamlit_app
 PORT = 8501
 
 build-image:
@@ -12,3 +12,12 @@ stop: ## Stop and remove a running container
 
 rm-image:
 	docker image rm $(APPNAME)
+
+package-wheel:
+	pip install wheel && python setup.py bdist_wheel
+
+install-wheel:
+	pip install dist/ml_for_nature-1.0-py3-none-any.whl
+
+install-dev-mod:
+	pip install -e .

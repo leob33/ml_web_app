@@ -28,8 +28,8 @@ def load_model():
     return tf.saved_model.load(MODEL_PATH)
 
 
-IMAGE_PATH = 'src/test_images/*.jpg'
-MODEL_PATH = 'src/saved_model'
+IMAGE_PATH = 'ml_for_nature/test_images/*.jpg'
+MODEL_PATH = 'ml_for_nature/saved_model'
 LABELS = ['Chevreuil Européen', 'Renard roux', 'Martre des pins', "Sanglier d'Eurasie"]
 
 batch_of_images = glob.glob(IMAGE_PATH)

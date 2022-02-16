@@ -1,6 +1,6 @@
 # project
 **/model_output
-src/tflite_ml_app/uploads
+ml_for_nature/tflite_ml_app/uploads
 **/test_output
 video_sample
 

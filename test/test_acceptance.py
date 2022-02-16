@@ -9,7 +9,7 @@ from viz_utils import generate_human_readable_results
 def test_validity_of_humain_readable_detection_results():
     # Given
     batch_of_images = glob.glob('minimal_test_sample/*.jpg')
-    detect_fn = tf.saved_model.load('/Users/leo.babonnaud/lab/ml_web_app/src/saved_model')
+    detect_fn = tf.saved_model.load('//saved_model')
     labels = ['Chevreuil Européen', 'Renard roux', 'Martre des pins', "Sanglier d'Eurasie"]
 
     # When
