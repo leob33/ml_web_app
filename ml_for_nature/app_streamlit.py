@@ -13,7 +13,7 @@ from viz_utils import generate_human_readable_results, annotate_raw_image_with_p
 
 def _display_one_prediction(prediction: Dict[str, float]):
     for key, value in prediction.items():
-        return f"I see a {key} with {value*100}% confidence"
+        return f"I see a {key} with {value * 100}% confidence"
 
 
 def display_predictions(predictions: List[Dict[str, float]]) -> None:

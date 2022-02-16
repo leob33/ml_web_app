@@ -16,7 +16,7 @@ def read_image_as_tensor(image_np: np.ndarray):
 
 
 def convert_detections_into_np_array_with_correct_dtype(detections: Dict[str, tf.Tensor]) \
-        -> [Dict[str, np.ndarray]]:
+        -> Dict[str, np.ndarray]:
     num_detections = int(detections.pop('num_detections'))
     detections = {key: value[0, :num_detections].numpy() for key, value in
                   detections.items()}  # transform tensors to np
