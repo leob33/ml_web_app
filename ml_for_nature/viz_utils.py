@@ -6,7 +6,7 @@ import numpy as np
 
 def generate_human_readable_results(results_of_prediction: List[Dict[str, Any]],
                                     labels) \
-        -> list[dict[Any, float]]:
+        -> List[dict[Any, float]]:
     info = []
     if len(results_of_prediction) > 0:
         for result in results_of_prediction:
